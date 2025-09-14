@@ -11,7 +11,7 @@ enum season {
 };
 
 int main() {
-	enum season b1 = 0;
+	//enum season b1 = 0;
 	enum season b2 = SUM;
 	return 0;
 }
@@ -61,12 +61,12 @@ int main() {
 
 #if 0
 bool a;
-a = true;              //È¡Öµ£ºtrueÎªÕæ(1)£¬falseÎª¼Ù(0)£¬Æä±¾ÖÊ¾ÍÊÇ·Ç0ºÍ0
+a = true;              //å–å€¼ï¼štrueä¸ºçœŸ(1)ï¼Œfalseä¸ºå‡(0)ï¼Œå…¶æœ¬è´¨å°±æ˜¯é0å’Œ0
 bool b = false;
 
 int main() {
 	a = 30;
-	cout << a << sizeof(a) << endl;   //boolÀàĞÍÕ¼ÓÃ1¸ö×Ö½Ú£¬È¡ÖµÖ»ÓĞfalse(0)ºÍtrue(1)
+	cout << a << sizeof(a) << endl;   //boolç±»å‹å ç”¨1ä¸ªå­—èŠ‚ï¼Œå–å€¼åªæœ‰false(0)å’Œtrue(1)
 	return 0;
 }
 #endif
@@ -99,3 +99,4 @@ int main() {
 	return 0;
 }
 #endif
+
