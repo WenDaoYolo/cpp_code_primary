@@ -20,7 +20,7 @@
 //	cout << endl;
 //	cout << "len2:" << array1.GetLen() << endl;;
 //
-//	/*       赋值操作符函数 -> 暂不了解，后续将学习
+//	/*       璧嬪�兼搷浣滅鍑芥暟 -> 鏆備笉浜嗚В锛屽悗缁皢瀛︿範
 //	
 //	MyArray array3;
 //	array3 = array2;
