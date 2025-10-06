@@ -20,11 +20,11 @@
 //	}
 //}
 //
-//MyArray::MyArray(const MyArray& another) {           //Éæ¼°µ½Ö¸ÕëµÄ¿½±´£¬ĞèÒªÉî¿½±´
+//MyArray::MyArray(const MyArray& another) {           //æ¶‰åŠåˆ°æŒ‡é’ˆçš„æ‹·è´ï¼Œéœ€è¦æ·±æ‹·è´
 //	this->len = another.len;
 //	this->space = new int[this->len];
 //	for (int i = 0; i < this->len; i++)
-//		(this->space)[i] = *((another.space) + i);   //ÏÂ±ê·¨ºÍÖ¸ÕëÔËËã·¨
+//		(this->space)[i] = *((another.space) + i);   //ä¸‹æ ‡æ³•å’ŒæŒ‡é’ˆè¿ç®—æ³•
 //	cout << "create new array succ!" << endl;
 //}
 //
@@ -46,3 +46,4 @@
 //		cout << "delete succ!" << endl;
 //	}
 //}
+
